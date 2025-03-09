@@ -1,8 +1,1 @@
-# Ignore CSV files (output files)
-*.csv
-
-# Ignore log files
-*.log
-
-# Ignore Python cache files
-__pycache__/
+*.csv\n*.log\n__pycache__/
