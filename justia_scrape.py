@@ -85,7 +85,7 @@ while True:
     
 # Convert to DataFrame and save to CSV
 df = pd.DataFrame(all_data)
-df.to_csv("C:/Users/YourUsername/Documents/justia_lawyers_selenium.csv", index=False)
+df.to_csv("justia_lawyers_selenium.csv", index=False)
 print("\nScraping complete. Data saved to justia_lawyers_selenium.csv")
 
 # Close the Selenium browser
