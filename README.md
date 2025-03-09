@@ -2,7 +2,7 @@
 
 This project is a **web scraper** that extracts **lawyer information** from Justia's directory of family law attorneys in **Chicago, Illinois**. The scraper uses **Selenium** to navigate through multiple pages and collect details such as names, profile links, phone numbers, images, descriptions, and consultation availability.
 
-## 📌 Features
+## Features
 - **Automated Pagination**: Scrapes all available pages.
 - **Data Extraction**: Collects lawyer details (name, profile link, phone, website, etc.).
 - **CSV Export**: Saves the scraped data into `justia_lawyers_selenium.csv`.
@@ -46,12 +46,12 @@ To install dependencies manually, run:
 pip install -r requirements.txt
 ```
 
-## 🛑 Notes
+## Notes
 - This scraper **runs in headless mode** to improve efficiency.
 - Ensure that **Google Chrome is installed** on your system.
 - **IP Blocking Warning**: Running the scraper too frequently may lead to blocking. Consider using **proxies** if needed.
 
-## 🚀 Future Enhancements
+## Future Enhancements
 - Add **proxy rotation** to avoid detection.
 - Improve **error handling and logging**.
 - Support **other lawyer categories or cities**.
