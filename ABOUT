@@ -1,0 +1,24 @@
+# About Justia Lawyer Scraper
+
+## Overview
+The **Justia Lawyer Scraper** is a Python-based web scraping tool that collects **lawyer details** from Justia's online directory. It is designed to **automate data extraction** for legal professionals in **Chicago, Illinois**, under the **Family Law** category.
+
+## Features
+- **Scrapes multiple pages automatically**
+- **Extracts lawyer details**: Name, Profile URL, Image, Phone, Free Consultation, Tagline, Description, and Website
+- **Saves data to a CSV file** for easy analysis
+- **Runs in headless mode** for efficiency
+- **Implements error handling** to prevent script failures
+
+## Use Cases
+- **Market research** for law firms
+- **Building a lawyer directory**
+- **Analyzing legal service trends**
+
+## Technologies Used
+- **Selenium** for web scraping
+- **WebDriver Manager** for managing browser drivers
+- **Pandas** for data handling
+
+This project is open for further development, including **proxy rotation**, **captcha handling**, and **scraping additional lawyer categories**.
+
