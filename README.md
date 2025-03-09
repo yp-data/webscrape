@@ -56,9 +56,6 @@ pip install -r requirements.txt
 - Improve **error handling and logging**.
 - Support **other lawyer categories or cities**.
 
-## 📜 License
-This project is licensed under the MIT License.
-
 ---
 Developed by [Yuri P.](https://github.com/yp-data) 🚀
 
